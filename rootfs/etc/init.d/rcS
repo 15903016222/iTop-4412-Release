@@ -2,6 +2,7 @@
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin:/topeet/bin:
 runlevel=S
 prevlevel=N
+echo -e "\033[?25h"
 umask 022
 export PATH runlevel prevlevel
 
